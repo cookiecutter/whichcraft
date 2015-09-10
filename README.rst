@@ -27,3 +27,14 @@ On Linux, Mac, Windows for Python 2.6, 2.7, or any of the 3s:
     '/Users/pydanny/.envs/fun/bin/cookiecutter'
     >>> which('a-made-up-name') is None
     True
+
+
+Notes
+=====
+
+This is a shim of the ``shutil.which`` function that's designed to work across
+multiple versions of Python and inside of windows. The code for Python 2.x is
+based on Python 3 code that I extracted from source. I originally did this for
+Cookiecutter_ but pulled it out in order to reduce line count for that project.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
