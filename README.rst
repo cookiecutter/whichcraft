@@ -8,6 +8,12 @@ whichcraft
 .. image:: https://travis-ci.org/pydanny/whichcraft.png?branch=master
         :target: https://travis-ci.org/pydanny/whichcraft
 
+::
+
+    That code in my care
+    That sly command-line stare
+    That strips my operating system bare
+    It's whichcraft
 
 This package provides cross-platform cross-python ``shutil.which`` functionality.
 

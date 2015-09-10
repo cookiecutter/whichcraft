@@ -2,7 +2,7 @@
 
 __author__ = 'Daniel Roy Greenfeld'
 __email__ = 'pydanny@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 import os
