@@ -7,6 +7,8 @@ whichcraft
 
 .. image:: https://travis-ci.org/pydanny/whichcraft.png?branch=master
         :target: https://travis-ci.org/pydanny/whichcraft
+        
+.. image:: http://codecov.io/github/pydanny/whichcraft/coverage.svg?branch=master :target: http://codecov.io/github/pydanny/whichcraft?branch=master
 
 ::
 
