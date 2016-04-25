@@ -1,12 +1,12 @@
 History
 =========
 
-0.3.0 (2015-04-24)
+0.3.0 (2016-04-24)
 ---------------------
 
 * Include tests in release source tarball (@Edwardbetts)
 
-0.2.0 (2015-04-23)
+0.2.0 (2016-04-23)
 ---------------------
 
 * Python 3.5 compatability
