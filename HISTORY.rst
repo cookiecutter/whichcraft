@@ -1,12 +1,15 @@
 History
 =========
 
-0.2.0 (2015-04-??)
+0.3.0 (2015-04-24)
+---------------------
+
+* Include tests in release source tarball (@Edwardbetts)
+
+0.2.0 (2015-04-23)
 ---------------------
 
 * Python 3.5 compatability
-
-* Added lyrics
 
 0.1.1 (2015-09-09)
 ---------------------
