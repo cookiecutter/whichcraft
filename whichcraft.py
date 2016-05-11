@@ -5,6 +5,7 @@ __email__ = 'pydanny@gmail.com'
 __version__ = '0.4.0'
 
 import os
+import sys
 
 try:
     from shutil import which
