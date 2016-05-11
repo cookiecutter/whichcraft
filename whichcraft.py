@@ -7,9 +7,9 @@ __version__ = '0.4.0'
 import os
 import sys
 
-try:
+try:    # Forced testing
     from shutil import which
-except ImportError:
+except ImportError:    # Forced testing
     # Versions prior to Python 3.3 don't have shutil.which
 
     def which(cmd, mode=os.F_OK | os.X_OK, path=None):
