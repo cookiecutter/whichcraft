@@ -1,6 +1,11 @@
 History
 =========
 
+0.3.1 (2016-05-10)
+---------------------
+
+* Now testing for `which` directly, so we can support versions of Python 3 before 3.3 (@nickcoghlan)
+
 0.3.1 (2016-04-24)
 ---------------------
 

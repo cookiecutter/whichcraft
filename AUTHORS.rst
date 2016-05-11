@@ -11,3 +11,4 @@ Contributors
 ------------
 
 * Edward Betts (@EdwardBetts)
+* Nick Coghlan (@ncoghlan)
