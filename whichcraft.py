@@ -2,20 +2,14 @@
 
 __author__ = 'Daniel Roy Greenfeld'
 __email__ = 'pydanny@gmail.com'
-__version__ = '0.3.1'
-
+__version__ = '0.4.0'
 
 import os
-import sys
 
-PY3 = sys.version_info[0] == 3
-
-
-if PY3:  # Forced testing
-
+try:
     from shutil import which
-
-else:  # Forced testing
+except ImportError:
+    # Versions prior to Python 3.3 don't have shutil.which
 
     def which(cmd, mode=os.F_OK | os.X_OK, path=None):
         """Given a command, mode, and a PATH string, return the path which
