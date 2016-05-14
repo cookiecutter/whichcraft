@@ -10,6 +10,9 @@ whichcraft
         
 .. image:: http://codecov.io/github/pydanny/whichcraft/coverage.svg?branch=master
         :target: http://codecov.io/github/pydanny/whichcraft?branch=master
+        
+.. image:: https://ci.appveyor.com/api/projects/status/v9coijayykhkeu4d?svg=true
+        :target: https://ci.appveyor.com/project/pydanny/whichcraft
 
 ::
 
