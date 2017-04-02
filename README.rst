@@ -2,10 +2,10 @@
 whichcraft
 ===============================
 
-.. image:: https://badge.fury.io/py/whichcraft.png
+.. image:: https://badge.fury.io/py/whichcraft.svg
     :target: http://badge.fury.io/py/whichcraft
 
-.. image:: https://travis-ci.org/pydanny/whichcraft.png?branch=master
+.. image:: https://travis-ci.org/pydanny/whichcraft.svg?branch=master
         :target: https://travis-ci.org/pydanny/whichcraft
         
 .. image:: http://codecov.io/github/pydanny/whichcraft/coverage.svg?branch=master
