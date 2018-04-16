@@ -6,6 +6,7 @@ History
 
 * Use black for code formatting
 * Move status to production/stable
+* Drop Python 2.6 and 3.3 support
 
 0.4.1 (2017-04-25)
 ---------------------
