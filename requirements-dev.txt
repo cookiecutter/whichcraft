@@ -1,4 +1,4 @@
-flake8
+black
 pytest
 wheel>=0.23.0
 pytest-cov>=2.1.0

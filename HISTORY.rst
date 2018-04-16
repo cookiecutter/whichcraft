@@ -1,11 +1,16 @@
 History
 =========
 
+0.4.2 (2018-04-16)
+---------------------
+
+* Use black for code formatting
+* Move status to production/stable
+
 0.4.1 (2017-04-25)
 ---------------------
 
 * Added tests to support Python 3.6
-
 
 0.3.1 (2016-05-10)
 ---------------------

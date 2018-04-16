@@ -5,7 +5,7 @@ from whichcraft import which
 
 
 def test_existing_command():
-    cmd = which('date')
+    cmd = which("date")
     assert cmd
     assert os.path.exists(cmd)
     assert os.access(cmd, os.F_OK | os.X_OK)
@@ -13,8 +13,8 @@ def test_existing_command():
 
 
 def test_non_existing_command():
-    assert which('stringthatisntashellcommand') is None
+    assert which("stringthatisntashellcommand") is None
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pytest.main()
