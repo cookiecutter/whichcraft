@@ -20,6 +20,11 @@ environment:
       PYTHON_ARCH: "32"
       TOX_ENV: "py35"
 
+    - PYTHON: "C:\\Python36"
+      PYTHON_VERSION: "3.6.0"
+      PYTHON_ARCH: "32"
+      TOX_ENV: "py36"      
+
 init:
   - "ECHO %PYTHON% %PYTHON_VERSION% %PYTHON_ARCH%"
 
