@@ -1,6 +1,12 @@
 History
 =========
 
+0.5.0 (2018-10-09)
+---------------------
+
+* Add 3.7 support thanks to @rooterkyberian
+* Remove any mention of 2.6
+
 0.4.2 (2018-04-16)
 ---------------------
 
