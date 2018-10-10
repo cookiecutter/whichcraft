@@ -20,7 +20,7 @@ if sys.argv[-1] == "publish":
     os.system("python setup.py sdist bdist_wheel")
     os.system("twine upload dist/*")
     print("You might want to tag a release now")
-    sys.exit()    
+    sys.exit()
 
 if sys.argv[-1] == "tag":
     print("Tagging the version on github:")
