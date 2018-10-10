@@ -16,6 +16,10 @@ if sys.argv[-1] == "publish":
         import wheel
     except ImportError:
         raise ImportError("Fix: pip install wheel")
+    try:
+        import twine
+    except ImportError:
+        raise ImportError("Fix: pip install twine")        
 
     os.system("python setup.py sdist bdist_wheel")
     os.system("twine upload dist/*")
