@@ -8,7 +8,7 @@ whichcraft
 .. image:: https://travis-ci.org/pydanny/whichcraft.svg?branch=master
         :target: https://travis-ci.org/pydanny/whichcraft
 
-.. image:: http://codecov.io/github/pydanny/whichcraft/coverage.svg?branch=master
+.. image:: https://codecov.io/gh/pydanny/whichcraft/branch/master/graph/badge.svg
         :target: http://codecov.io/github/pydanny/whichcraft?branch=master
 
 .. image:: https://ci.appveyor.com/api/projects/status/v9coijayykhkeu4d?svg=true
