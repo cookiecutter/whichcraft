@@ -34,8 +34,8 @@ On Linux, Mac, Windows for Python 2.7 or any of the maintained 3s:
 
 .. code-block:: python
 
-    >>> from whichcraft import which
-    >>> which('date')
+    >>> from whichcraft import which
+    >>> which('date')
     '/bin/date'
     >>> which('calendar')
     '/bin/calendar'
