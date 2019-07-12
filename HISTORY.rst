@@ -1,6 +1,12 @@
 History
 =========
 
+0.6.0 (2019-07-12)
+---------------------
+
+* Remove lingering unicode issues
+* Add BriteCore as a sponsor
+
 0.5.3 (2018-10-10)
 ---------------------
 

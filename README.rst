@@ -58,7 +58,7 @@ Cookiecutter_ but pulled it out in order to reduce line count for that project.
 Sponsor
 =======
 
-This work is sponsored by BriteCore_, which does awesome things with Python, Django, JavaScript, and AWS. `Apply for a job if you're interested!`_
+This work is sponsored by BriteCore, which does awesome things with Python, Django, JavaScript, and AWS. `Apply for a job if you're interested!`_
 
 .. image:: https://avatars1.githubusercontent.com/u/967173?s=200&v=4
     :target: http://engineering-application.britecore.com/
