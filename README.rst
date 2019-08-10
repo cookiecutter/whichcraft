@@ -53,6 +53,9 @@ multiple versions of Python and inside of windows. The code for Python 2.x is
 based on Python 3 code that I extracted from source. I originally did this for
 Cookiecutter_ but pulled it out in order to reduce line count for that project.
 
+Edgecase: Date function works perfectly on mac os and linux system, hence returns string.
+But is an in-built function in windows hence returns none as value when called in
+windows.
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 
 Sponsor
