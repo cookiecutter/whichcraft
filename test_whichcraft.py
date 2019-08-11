@@ -1,3 +1,5 @@
+##contributors:   Cupux, Hebzebba, OhenebaAduhene, amo95
+
 import os
 from datetime import date
 import pytest
@@ -16,7 +18,7 @@ def test_existing_linux():
 def test_non_existing_command():
     assert which("stringthatisntashellcommand") is None
 
-@pytest.mark.skipif(sys.platform != "win32", reason= "Does not run on windows")
+@pytest.mark.skipif(sys.platform != "win32", reason= "Does run on windows")
 def test_existing_windows():
     cmd = which("cmd")
     assert cmd
