@@ -56,6 +56,7 @@ Cookiecutter_ but pulled it out in order to reduce line count for that project.
 Edgecase: Date function works perfectly on mac os and linux system, hence returns string.
 But is an in-built function in windows hence returns none as value when called in
 windows.
+
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 
 Sponsor
