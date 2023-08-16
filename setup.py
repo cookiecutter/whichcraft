@@ -19,7 +19,7 @@ if sys.argv[-1] == "publish":
     try:
         import twine
     except ImportError:
-        raise ImportError("Fix: pip install twine")        
+        raise ImportError("Fix: pip install twine")
 
     os.system("python setup.py sdist bdist_wheel")
     os.system("twine upload dist/*")
@@ -57,7 +57,10 @@ setup(
     author_email="pydanny@gmail.com",
     url="https://github.com/pydanny/whichcraft",
     include_package_data=True,
-    py_modules=["whichcraft"],
+    packages=["whichcraft"],
+    package_data={
+        "whichcraft": ["__init__.pyi", "py.typed"],
+    },
     license="BSD",
     zip_safe=False,
     keywords="whichcraft",
